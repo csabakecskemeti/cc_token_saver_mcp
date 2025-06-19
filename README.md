@@ -38,3 +38,7 @@ edit the `~/.claude.json` file
         }
       },
 ```
+
+Example usage:
+<img width="1433" alt="cc-token_saver" src="https://github.com/user-attachments/assets/1e22553e-82bc-49c8-8ccd-5bd8b0306605" />
+
