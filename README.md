@@ -11,7 +11,20 @@ The MCP server exposes your local LLM as tools that Claude Code can use for:
 - Basic Q&A
 Claude Code automatically tries the local LLM first for simple tasks, only using premium tokens when necessary for complex reasoning and multi-step workflows.
 
-## MCP config
+## MCP server config
+Create a `.env` file with the LLM config
+
+Example:
+```json
+# Local LLM Configuration
+OPENAI_API_KEY=none
+OPENAI_BASE_URL=http://localhost:1234/v1
+LOCAL_MODEL_NAME=qwen2.5-7b-instruct
+LOCAL_LLM_TEMPERATURE=0.7
+LOCAL_LLM_MAX_TOKENS=-1
+```
+
+## Claude Code MCP config
 edit the `~/.claude.json` file
 
 ```json
