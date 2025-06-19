@@ -6,7 +6,7 @@ edit the `~/.claude.json` file
 
 ```json
 "mcpServers": {
-        "my-custom-tool": {
+        "cc-token-saver": {
           "type": "stdio",
           "command": "python",
           "args": [
