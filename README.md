@@ -15,7 +15,7 @@ Claude Code automatically tries the local LLM first for simple tasks, only using
 Create a `.env` file with the LLM config
 
 Example:
-```json
+```
 # Local LLM Configuration
 OPENAI_API_KEY=none
 OPENAI_BASE_URL=http://localhost:1234/v1
